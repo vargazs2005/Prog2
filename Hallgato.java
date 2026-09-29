@@ -12,7 +12,7 @@ public class Hallgato {
 
     public void koszon(int n) {     //Osztály: Objektum tervrajza, abszrakt adattípus - új adattípust definiál a nyelvben.
                                     //Metódus: eljárás vagy függvény ami osztályban van.
-                                    //Túl lehet terhelni: Nevük lehet ugyan az, csak különböző a paraméter lista vagy paraméter típus kell neki!
+                                    //Túl lehet terhelni / túl van terhelve: Nevük lehet ugyan az, csak különböző a paraméter lista vagy paraméter típus kell neki!
                                     //Egységbe zárás elve: osztály egységbe zárja az objektum tulajdonságait és viselkedésmintáit.
         for (int i = 0; i<n;i++) {
             System.out.println("Csáó Bella!");

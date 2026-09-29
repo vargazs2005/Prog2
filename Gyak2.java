@@ -60,9 +60,9 @@ public class Gyak2 {
     }
 
     static void main(String[] args) {
-        String s1 = "Welcome to Java";
+        String s1 = "Welcome to Java"; // Kapcsolt String
         String s2 = s1;
-        String s3 = "Welcome to Java";
+        String s3 = "Welcome to Java"; // Kapcsolt String
         String s4 = new String("Welcome to Java");
 
         System.out.println(s1 == s2);
