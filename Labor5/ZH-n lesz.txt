@@ -1,0 +1,4 @@
+osztályok
+standard inputról olvasás, feldolgozás
+file utils-os beolvasás, majd sorok feldolgozása
+parancssori paraméterek
