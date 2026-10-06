@@ -2,3 +2,6 @@ osztályok
 standard inputról olvasás, feldolgozás
 file utils-os beolvasás, majd sorok feldolgozása
 parancssori paraméterek
+
+
+Paraméterekkel futtatás: Run gomb mellett 3 függőleges pötty, Run with parameters.
