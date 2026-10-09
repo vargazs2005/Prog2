@@ -4,6 +4,7 @@ file utils-os beolvasás, majd sorok feldolgozása, műveletek elvégzése, CSV 
 parancssori paraméterek, argumentumok
 OSztály írása, statikus metódusok implementálása, akár ne lehessen példányosítani, használni
 String kezeléses feladat biztos lesz. split, join..
+ILyesmi is: https://arato.inf.unideb.hu/szathmary.laszlo/pmwiki/index.php?n=Py3.20141125a
 
 java apit lehet használni, kézzel írt jegyzetet szintén lehet használni.
 Java api:
