@@ -1,7 +1,10 @@
-osztályok
+osztályok, metódusok.
 standard inputról olvasás, feldolgozás
-file utils-os beolvasás, majd sorok feldolgozása
-parancssori paraméterek
+file utils-os beolvasás, majd sorok feldolgozása, műveletek elvégzése, CSV állomány, valami szeparátor jellel elválasztva
+parancssori paraméterek, argumentumok
+OSztály írása, statikus metódusok implementálása, akár ne lehessen példányosítani, használni
+String kezeléses feladat biztos lesz. split, join..
 
+java apit lehet használni, kézzel írt jegyzetet szintén lehet használni.
 
 Paraméterekkel futtatás: Run gomb mellett 3 függőleges pötty, Run with parameters.
