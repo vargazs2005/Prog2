@@ -6,5 +6,7 @@ OSztály írása, statikus metódusok implementálása, akár ne lehessen péld�
 String kezeléses feladat biztos lesz. split, join..
 
 java apit lehet használni, kézzel írt jegyzetet szintén lehet használni.
+Java api:
+https://docs.oracle.com/en/java/javase/25/docs/api/index.html
 
 Paraméterekkel futtatás: Run gomb mellett 3 függőleges pötty, Run with parameters.
