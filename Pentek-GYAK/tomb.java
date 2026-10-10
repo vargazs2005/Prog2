@@ -33,7 +33,7 @@ public class tomb {
         // MyUtils.reverse(tomb) -Helyben fordítja meg az elemek sorrendjét
         // MyUtils.sortDescending(tomb)
 
-        System.out.println(Arrays.toString(MyUtils.reverse(five)));
+        //System.out.println(Arrays.toString(MyUtils.reverse(five)));
     }
 
     static int[] getOneToFive() {
