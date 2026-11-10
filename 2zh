@@ -6,3 +6,4 @@ super()
 excepion -- try/catch
 throws -- implementben
 throw
+Nem lesz fileutils!! Scanner sc = new Scanner(new File("input.txt"));
