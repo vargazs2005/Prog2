@@ -4,3 +4,5 @@ object vizsgálata (class miatt)
 extands
 super()
 excepion -- try/catch
+throws -- implementben
+throw
