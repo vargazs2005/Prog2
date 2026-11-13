@@ -1,0 +1,12 @@
+Object obj = new Object();
+
+.getClass(); --> megadja, melyik osztály példánya.
+.equals(); --> obj.-ok összehasonlítása.
+.hashCode(); --> Egy egész érték, melyet az obj. a memória címe alapján generál.
+.toString(); --> sztring reprezentációja az obj.-nak.
+.notify(); vagy .notifyAll(); vagy .wait(); --> Többszálú programozásnál használatosak.
+
+
+Ha egy osztályben felülírjuk az equals metódust, akkor a HashCode metódust is felül kell írni! Párban kell kezelni.
+metódusok a viselkedésért felelnek
+az attribútomok meghatározzák az objektum állapotát.

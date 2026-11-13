@@ -1,0 +1,7 @@
+upcasting --> egy objektum a szülő osztályának típusára kényszerítése, típuskényszerítés. -- Ez a gyakoribb
+
+downcasting --> Egy objektumot valamelyik leszármazott osztályának a típusára cast-ol (ez csak speciális esetben lehetséges.)
+
+
+Az egész objektumorientált programozás erről az egy mondatról szól:
+"MInden rendszerben igaz az, hogy mindenütt, ahol egy szuperosztály példánya szerepelt, szerepelhet az alosztály egy példánya is, de fordítva nem."

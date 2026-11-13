@@ -1,0 +1,3 @@
+1. Vagy mind a két metódust felülírjuk, vagy egyiket sem (equals, hashcode)
+Azaz ha felülírom az equals-t akkor felül kell írjam a hashcodeot os
+2. Két objektum összehasonlításakor a legtöbb esetben a két objektumot az értéke alapján akarom összehasonlítani. Ehhez szükség van az equals metódus felülírására.
