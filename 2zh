@@ -13,3 +13,9 @@ Unit teszt írása!!
 Régebben a Labor5 - Teszt számtani sorozatban.
 Classra alt-enter create test, csak azt kiválasztani ami kell, létrejön a teszt osztály, és oda mehet a teszt eset. például az assertEquals, vagy assertTrue, assertThrows.
 Ha osztályszintű változót tesztelünk, akkor nem kell példányosítani. De ha sima változó akkor kell.
+Equals metódus írása, hashCode generálni mellé.
+compareTo
+Comparable interface, saját interface írása.
+Collections
+Halmaz!!
+Map!!
