@@ -17,7 +17,13 @@ public class Runner {
             int liftek_szama = Integer.parseInt(sc.nextLine()); // N egész szám
 
             for (int i = 0; i<liftek_szama; i++) {
-                int emeletek_szama = Integer.parseInt(sc.nextLine());   // N darab lift, azoknak emeleteinek száma.
+                int emeletek_szama;
+                try {
+                    emeletek_szama = Integer.parseInt(sc.nextLine());   // N darab lift, azoknak emeleteinek száma.
+                } catch (Exception e) {
+                    //System.out.println(e.toString());
+                    emeletek_szama = 10;
+                }
                 lis.add(new Lift(emeletek_szama));
             }
 
@@ -29,7 +35,7 @@ public class Runner {
                 try {
                     idx = Integer.parseInt(parancs[0]) - 1; // -1, mert a liftek sorszáma 0-tól indul.
                 } catch (Exception e) {
-                    System.out.println(e.toString());
+                    //System.out.println(e.toString());
                     continue;   // Ha hibára fut, azaz nincs index, akkor kihagyja a jelenlegi sort, és megy a következőre.
                 }
 
