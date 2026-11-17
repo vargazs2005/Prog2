@@ -1,8 +1,8 @@
 3
-6
+
 9
 7
-1;fel
+l;fel
 3;le
 2;fel
 1;fel
