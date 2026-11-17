@@ -25,7 +25,13 @@ public class Runner {
                 String sor = sc.nextLine();     // Bekéri az adott sort.
                 String [] parancs = sor.split(";");     // Szétszedjük pontosvessző mentén.
 
-                int idx = Integer.parseInt(parancs[0]) - 1; // -1, mert a liftek sorszáma 0-tól indul.
+                int idx;    // Try-on belül lokális változók vannak, kívülről nem elérhető, ezért külön kell deklarálni.
+                try {
+                    idx = Integer.parseInt(parancs[0]) - 1; // -1, mert a liftek sorszáma 0-tól indul.
+                } catch (Exception e) {
+                    System.out.println(e.toString());
+                    continue;   // Ha hibára fut, azaz nincs index, akkor kihagyja a jelenlegi sort, és megy a következőre.
+                }
 
                 System.out.println("Parancs előtt: " + lis.get(idx));
 
@@ -33,6 +39,7 @@ public class Runner {
                     try {
                         lis.get(idx).felfele(); // Nincs alapból lekezelve a felfele(), ezért írunk sima Exception e catch-et.
                         System.out.println("Parancs után: " + lis.get(idx));
+                        System.out.println("");
                     } catch (HibasIranyException e) {
                         System.out.println(e.toString());
                     } catch (Exception e){
@@ -42,6 +49,7 @@ public class Runner {
                     try {
                         lis.get(idx).lefele(); // Nincs alapból lekezelve a lefele(), ezért írunk sima Exception e catch-et.
                         System.out.println("Parancs után: " + lis.get(idx));
+                        System.out.println("");
                     } catch (HibasIranyException e) {
                         System.out.println(e.toString());
                     } catch (Exception e){
