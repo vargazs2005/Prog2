@@ -24,7 +24,7 @@ public class Lift implements Mozog {        // Piros izzó, implement methods, �
             throw new Exception("A lift elromlott."); // Példányosítani kell az Exceptiont.
         }
 
-        if (this.aktualis_emelet < this.aktualis_emelet) {
+        if (this.aktualis_emelet < this.emeletek_szama) {
             this.aktualis_emelet++;
         } else {
             throw new HibasIranyException("Nem lehet felfele menni.");
